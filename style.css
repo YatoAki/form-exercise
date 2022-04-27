@@ -10,6 +10,10 @@ body, p{
   margin: 0;
 }
 
+body{
+  display: flex;
+}
+
 .left {
     position: relative;
     background-image: url("./images/back.jpg");
@@ -48,6 +52,7 @@ body, p{
   position: absolute;
   bottom: 20px;
   color: white;
+  font-size: 15px;
 }
 
 .img-crd a{

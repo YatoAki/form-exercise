@@ -18,7 +18,51 @@
       </div>
     </div>
     <div class="right">
+      <div class="top-text">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+           Sign up <em>now</em> to get started.</p>
+        <p>Your <em>know</em> your want to.</p>
+      </div>
+      <div class="whitebox">
+        <p class="whitebox-p">Let's do this!</p>
+        <form>
+          <div class="formrow">
+            <div class="form-element">
+              <label>FIRST NAME</label>
+              <input type="text" required>
+            </div>
+            <div class="form-element">
+              <label>LAST NAME</label>
+              <input type="text" id="lastname" required>
+            </div>
+          </div>
 
+          <div class="formrow">
+            <div class="form-element">
+              <label>EMAIL</label>
+              <input type="email" required>
+            </div>
+            <div class="form-element">
+              <label>PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+          </div>
+
+          <div class="formrow">
+              <div class="form-element">
+                  <label>Password</label>
+                  <input type="password" id="password" required>
+                  <p id="validation-error"></p>
+              </div>
+              <div class="form-element">
+                <label>Confirm Password</label>
+                <input type="password" id="confirm_password" required>
+              </div>
+          </div>
+        </div>
+        <button type="submit" class="create-account">Create Account</button>
+      </form>
+      <p id="account">Already have an account? <a href="#" class="login">Log in</a></p>
     </div>
   </body>
 </html>
