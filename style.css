@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url("./fonts/Norse-Bold.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, p{
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+    position: relative;
+    background-image: url("./images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 40%;
+}
+
+.logobar{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000005d;
+  width: 100%;
+  top: 150px;
+  padding: 10px 0;
+}
+
+.logobar img{
+  height: 110px;
+}
+
+.logobar  p{
+  font-family: 'norsebold', sans-serif;
+  color: white;
+  font-size: 90px;
+}
+
+.img-crd{
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  color: white;
+}
+
+.img-crd a{
+  color: inherit;
+}
